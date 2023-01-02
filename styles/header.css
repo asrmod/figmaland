@@ -1,4 +1,76 @@
-div {
-    background: red;
-    font-family: RobotoB;
+body {
+    margin: 0;
+}
+
+.header {
+    background: #181818;
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.header__nav {
+    margin-left: 120px;
+    margin-right: 149px;
+
+}
+
+.header__nav a {
+    font-family: RobotoM, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-right: 31px;
+}
+
+.header__nav a:hover {
+    color: gray;
+}
+
+.header__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header__texts-title,
+.header__texts-subtitle {
+    width: 40%;
+    color: white;
+    margin: 0;
+    text-align: center;
+}   
+
+.header__texts-title {
+    
+    font-family: RobotoM, sans-serif;
+    font-size: 80px;
+}
+
+.header__texts-subtitle {
+    font-family: RobotoL, sans-serif;
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.header__buttons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__first-button {
+    margin-right: 35px;
+}
+
+.header__images {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
 }
