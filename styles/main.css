@@ -1,5 +1,8 @@
-.main__features,  
-.main__content {
+.main__features,
+.main__gallery,  
+.main__content,
+.main__partners,
+.main__testimonials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +22,7 @@
 }
 
 .main__subtitle {
-    width: 30%;
+    width: 29%;
     text-align: center;
     margin-top: 27px;
     font-size: 20px;
@@ -96,4 +99,78 @@
 
 .first__card {
     margin-right: 33px;
+}
+
+.gallery__section img {
+    border-radius: 12px;
+    margin-right: 33px;
+}
+
+.gallery__first_row,
+.gallery__second_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+
+}
+
+.gallery__second_row {
+    margin-bottom: 44px;
+}
+
+.partners__images {
+    margin-left: 74px;
+}
+
+.partners__images img {
+    margin-top: 54px;
+    margin-right: 74px;
+    margin-bottom: 54px;
+}
+
+.testimonials {
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    margin-right: 23px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+    width: 430px;
+}
+
+.testimonial__title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.testimonial__title img {
+    margin-right: 23px;
+}
+
+.testimonial__name,
+.testimonial__job {
+    font-family: RobotoM, sans-serif;
+}
+
+.testimonial__job {
+    margin-top: 6px;
+}
+
+.testimonial__content {
+    font-family: RobotoL, sans-serif;
+}
+
+.info__logos a {
+    margin-right: 24px;
+    text-decoration: none;
 }
