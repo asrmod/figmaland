@@ -35,12 +35,16 @@
 
 .main__images ul {
     padding: 0;
-    margin-top: -35px;
+    margin-top: 0;
 }
 
 .main__images ul li {
     list-style-type: none;
     margin-top: 35px;
+}
+
+.main__images ul li:first-child {
+    margin-top: 0;
 }
 
 .main_li_header {
@@ -106,6 +110,10 @@
     margin-right: 33px;
 }
 
+.gallery__section img:last-child {
+    margin-right: 0;
+}
+
 .gallery__first_row,
 .gallery__second_row {
     display: flex;
@@ -119,14 +127,14 @@
     margin-bottom: 44px;
 }
 
-.partners__images {
-    margin-left: 74px;
-}
-
 .partners__images img {
     margin-top: 54px;
     margin-right: 74px;
     margin-bottom: 54px;
+}
+
+.partners__images img:last-child {
+    margin-right: 0;
 }
 
 .testimonials {
@@ -170,7 +178,3 @@
     font-family: RobotoL, sans-serif;
 }
 
-.info__logos a {
-    margin-right: 24px;
-    text-decoration: none;
-}

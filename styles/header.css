@@ -12,7 +12,7 @@ body {
 
 .header__nav {
     margin-left: 120px;
-    margin-right: 149px;
+    margin-right: 180px;
 
 }
 
@@ -21,6 +21,10 @@ body {
     color: white;
     text-decoration: none;
     margin-right: 31px;
+}
+
+.header__nav a:last-child {
+    margin-right: 0;
 }
 
 .header__nav a:hover {

@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.footer__links > div:last-child {
+    margin-right: 0;
+}
+
 .links {
     display: flex;
     flex-direction: column;
